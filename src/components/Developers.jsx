@@ -1,5 +1,11 @@
 import React from 'react';
 import man from "../assets/images/man.jpg"
+import man1 from "../assets/images/personx1.png"
+import man2 from "../assets/images/personx2.png"
+import man4 from "../assets/images/personx3.png"
+import man3 from "../assets/images/image.png"
+import female from "../assets/images/female.png"
+
 
 const Developers = () => {
     return (
@@ -16,7 +22,7 @@ const Developers = () => {
 
                     <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
                         <div className="bg-[#2c2c2c] p-6 rounded-lg shadow-md hover:shadow-lg transition">
-                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="src/assets/images/john.jpg" alt="John Doe" />
+                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src={man1} alt="John Doe" />
                             <h2 className="text-lg font-semibold text-white text-center">John Doe</h2>
                             <p className="text-sm text-gray-400 font-medium text-center">Lead Designer</p>
                             <p className="text-xs text-gray-500 font-medium text-center">john.doe@webcraft.dev</p>
@@ -38,7 +44,7 @@ const Developers = () => {
                         </div>
 
                         <div className="bg-[#2c2c2c] p-6 rounded-lg shadow-md hover:shadow-lg transition">
-                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="src/assets/images/alex.jpeg" alt="Alex Johnson" />
+                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src={man2} alt="Alex Johnson" />
                             <h2 className="text-lg font-semibold text-white text-center">Alex Johnson</h2>
                             <p className="text-sm text-gray-400 font-medium text-center">Backend Developer</p>
                             <p className="text-xs text-gray-500 font-medium text-center">alex.johnson@webcraft.dev</p>
@@ -49,7 +55,7 @@ const Developers = () => {
                         </div>
 
                         <div className="bg-[#2c2c2c] p-6 rounded-lg shadow-md hover:shadow-lg transition">
-                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="src/assets/images/emily.jpeg" alt="Emily Davis" />
+                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src={female} alt="Emily Davis" />
                             <h2 className="text-lg font-semibold text-white text-center">Emily Davis</h2>
                             <p className="text-sm text-gray-400 font-medium text-center">Frontend Developer</p>
                             <p className="text-xs text-gray-500 font-medium text-center">emily.davis@webcraft.dev</p>
@@ -60,7 +66,7 @@ const Developers = () => {
                         </div>
 
                         <div className="bg-[#2c2c2c] p-6 rounded-lg shadow-md hover:shadow-lg transition">
-                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="src/assets/images/michael.jpeg" alt="Michael Brown" />
+                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src={man3} alt="Michael Brown" />
                             <h2 className="text-lg font-semibold text-white text-center">Michael Brown</h2>
                             <p className="text-sm text-gray-400 font-medium text-center">Full Stack Developer</p>
                             <p className="text-xs text-gray-500 font-medium text-center">michael.brown@webcraft.dev</p>
@@ -71,7 +77,7 @@ const Developers = () => {
                         </div>
 
                         <div className="bg-[#2c2c2c] p-6 rounded-lg shadow-md hover:shadow-lg transition">
-                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="src/assets/images/david.jpg" alt="David Wilson" />
+                            <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src={man4} alt="David Wilson" />
                             <h2 className="text-lg font-semibold text-white text-center">David Wilson</h2>
                             <p className="text-sm text-gray-400 font-medium text-center">Cybersecurity Specialist</p>
                             <p className="text-xs text-gray-500 font-medium text-center">david.wilson@webcraft.dev</p>
