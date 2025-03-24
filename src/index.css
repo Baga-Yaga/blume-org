@@ -1,0 +1,26 @@
+@import "tailwindcss";
+body{
+  margin:0px;
+  padding:0px;
+}
+
+.geist-mono-mid {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.geist-mono-bold {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.geist-mono-light {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
