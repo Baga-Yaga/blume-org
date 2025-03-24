@@ -34,9 +34,9 @@ const Developers = () => {
 
                         <div className="bg-[#2c2c2c] p-6 rounded-lg shadow-md hover:shadow-lg transition">
                             <img className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src={man} alt="Jane Smith" />
-                            <h2 className="text-lg font-semibold text-white text-center">Jane Smith</h2>
-                            <p className="text-sm text-gray-400 font-medium text-center">UI/UX Expert</p>
-                            <p className="text-xs text-gray-500 font-medium text-center">jane.smith@webcraft.dev</p>
+                            <h2 className="text-3xl text-white text-center font-bold">Jane Smith</h2>
+                            <p className="text-xl text-gray-400 font-bold text-center">Security Expert</p>
+                            <p className="text-xl text-gray-100 font-bold text-center">jane.smith@webcraft.dev</p>
                             <div className="flex justify-center mt-3 space-x-4">
                                 <a href="https://m.facebook.com/profile.php?id=61574695136816" className="text-blue-400 hover:underline">Facebook</a>
                                 <a href="https://www.instagram.com/jane.smith.official/profilecard/?igsh=MXQzZGRuMHVrOHBnNA==" className="text-pink-400 hover:underline">Instagram</a>
