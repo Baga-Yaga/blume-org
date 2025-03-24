@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 const CompanyUpdates = () => {
   return (
     <section className="text-white body-font overflow-hidden bg-[#080808]">
-      <p>{"ERO{5ed4ead0ee5fe63038e706bd446300eb}"}</p>
+      <p>{"     ZERO{5ed4ead0ee5fe63038e706bd446300eb}"}</p>
       <div className="container px-5 py-24 mx-auto geist-mono-mid">
         <div className="-my-8 divide-y-2 divide-gray-700/50 flex flex-col gap-5">
           {/* Update 1 */}
